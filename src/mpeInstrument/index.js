@@ -165,6 +165,7 @@ export const mpeInstrument = options => {
     processMidiMessage,
     clear,
     activeNotes,
+    rawActiveNotes,
     subscribe,
   };
 };
