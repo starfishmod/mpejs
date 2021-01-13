@@ -24,7 +24,7 @@
   "scripts": {
     "build": "yarn run clean && yarn run compile",
     "build:sandbox": "yarn run clean && yarn run compile:dev",
-    "clean": "rm -rf lib/*",
+    "clean": "",
     "compile": "WEBPACK_ENV=build webpack",
     "compile:dev": "WEBPACK_ENV=dev webpack",
     "docs:clean": "rm -rf docs/dist/*",
